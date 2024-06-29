@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM & TABLE</title>
+</head>
+<body>
+    <form action="backen.php"></form>
+    <fieldset>
+        <legend>HTML QUIZ</legend>
+        <P>You can also search other tutorial </P>
+        
+        <input type="search" placeholder="search">
+        <hr>
+        <div>
+        <label for="un">Username</label>
+          <input type="text" name="username" id="un" placeholder="Enter your name" >  
+        </div>
+        <br>
+        <div>
+            <label for="e">Email ID</label>
+            <input type="email" name="mail" id="e" placeholder="Enter your Email ID" >  
+        </div>
+        <br>
+        <div>
+            <label for="p">Password</label>
+            <input type="password" name="pass" id="p" placeholder="Enter your Password">  
+        </div>
+        <hr>
+       
+        <div>
+            <label for="t">Enter a phone number:</label><br>
+            <br><input type="tel"  placeholder="041-xxxxx">  
+            <br>
+            <p>Format:041-xxxxx</p>
+        </div>
+        <hr>
+        <div>
+           <label for="1"></label> Are HTML tag case sensitive?
+            <input type="radio" name="1" id="1">True
+            <input type="radio" name="1" id="1">False
+         </div>
+        <hr>
+         <br>
+         <div>
+            Which element is used for HTML list?
+            <br>
+          <label><input type="checkbox" class="" name="1" value="1">li </label> <br>
+          <label> <input type="checkbox" class="radio" name="1" value="1">ol</label> <br>
+            <label> <input type="checkbox" class="radio" name="1" value="1">ul </label>
+            
+         </div>
+         <hr>
+         
+         <div>
+
+        
+        <label for="c">Select your faviourt color:</label>
+        <input type="color" name="color" id="c">
+         </div>
+         <hr>
+         <div>
+            <label for="d">Select your date of birth:</label>
+        <input type="date" name="dob" id="d">
+         </div>
+         <hr>
+         <div>
+            <label for="q">Quantity (Between 1 and 5):</label>
+        <input type="number" min="1"  max="5" name="quantity" id="q">
+         </div>
+         <hr>
+         <div>
+            <label for="f">Upload an HTML F ile</label>
+            <input type="file" name="file" id="f">
+         </div>
+         <hr>
+         <div>
+            <input type="submit" value="Save">
+         </div>
+    </fieldset>
+    <br>
+    <hr>
+    <br>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th rowspan="2">Countries</th>
+                    <th>Cities</th>
+                    <th colspan="7">Temperature</th>
+                </tr>
+                <tr>
+                    <th>Days</th>
+                    <th>
+                        Monday
+                    </th>
+                    <th> Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                   <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="2">Pakistan</th>
+                    <td>Faisalabad</td>
+                    <td>30<sup>o</sup>C</td>
+                    <td> 32<sup>o</sup>C</td>
+                    <td>28<sup>o</sup>C</td>
+                    <td>35<sup>o</sup>C</td>
+                    <td>22<sup>o</sup>C</td>
+                    <TD>25<sup>o</sup>C</TD>
+                    <TD>20<sup>o</sup>C</TD>
+                </tr>
+                <tr>
+                    <td>Lahore</td>
+                    <td>30<sup>o</sup>C</td>
+                    <td> 32<sup>o</sup>C</td>
+                    <td>28<sup>o</sup>C</td>
+                    <td>35<sup>o</sup>C</td>
+                    <td>22<sup>o</sup>C</td>
+                    <TD>25<sup>o</sup>C</TD>
+                    <TD>20<sup>o</sup>C</TD>
+                </tr>
+            </tbody>
+        </table>
+</body>
+</html>
